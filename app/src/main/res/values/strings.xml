@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Leaderboard</string>
+    <!--    <string name="tab_text_1">Tab 1</string>-->
+    <!--    <string name="tab_text_2">Tab 2</string>-->
+    <string name="tab_text_1">Learning Leaders</string>
+    <string name="tab_text_2">Skill IQ Leaders</string>
+    <string name="title">Hello</string>
+    <string name="image_description_gads">Gads logo</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="project_on_github_link">Project on GITHUB (link)</string>
+    <string name="submit">Submit</string>
+    <string name="badge_logo">badge logo</string>
+    <string name="dummy_text">Pharis Muigai</string>
+    <string name="dummy_string_hr">223 learning hours, Kenya</string>
+</resources>
