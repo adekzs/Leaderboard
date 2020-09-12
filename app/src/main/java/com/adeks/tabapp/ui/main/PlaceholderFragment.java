@@ -89,28 +89,6 @@ public class PlaceholderFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-//        mDb = new DataBank(getContext(), new AsyncResponse() {
-//            @Override
-//            public void processFinished(List<StudentHrs> objectList) {
-//                if(mIndex == 1) {
-//                    rvAdapter = new RecyclerViewAdapter(getContext(), objectList);
-//                    mRecyclerView.setAdapter(rvAdapter);
-//                }
-//                mStudentHrs = new ArrayList<>();
-//                mStudentHrs.addAll(objectList);
-//            }
-//
-//
-//            @Override
-//            public void processFinished(List<StudentIq> objectList, boolean isTrue) {
-//                if(mIndex == 2){
-//                mStudentIqs = new ArrayList<>();
-//                mStudentIqs.addAll(objectList);
-//                    rvAdapter = new RecyclerViewAdapter(getContext(),mStudentIqs,true);
-//                    mRecyclerView.setAdapter(rvAdapter);
-//                }
-//            }
-//        });
 
     }
 }

@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.DialogFragment;
 
+import android.graphics.drawable.VectorDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -24,7 +25,10 @@ public class SubmitActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_submit);
         setSupportActionBar(findViewById(R.id.toolbar));
+
+        View view = getSupportActionBar().getCustomView();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_nav_back);
         EditText firstName = findViewById(R.id.first_name_et);
         EditText lastName = findViewById(R.id.last_name_et);
         EditText email = findViewById(R.id.email_et);
