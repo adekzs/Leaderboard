@@ -1,7 +1,7 @@
 # Leaderboard
 # Leaderboard
 
-This a simple app that uses recycler view to display information gotten
+This a simple app that uses recycler view to display the list of highest 20 students gotten
 from a web service via Retrofit. It is shown in a tabbed layout of
 fragments, below shows each activity/fragments in the application
 
